@@ -1,0 +1,19 @@
+# ---- 凭证与隐私（务必不要提交）----
+cookie.txt
+*.cookie
+.env
+.env.*
+
+# ---- 工具/会话目录 ----
+.workbuddy-ai/
+.playwright-cli/
+node_modules/
+
+# ---- 运行产物 ----
+题库.json
+题库_raw.json
+
+# ---- 原始站点静态资源（第三方版权内容，建议不公开）----
+# 如需在仓库中保留反混淆产物，可只提交 *.deob.js，取消下一行注释以忽略原始 bundle
+# static/js/chunk-*.js
+# static/js/runtime.*.js
