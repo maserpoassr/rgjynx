@@ -13,7 +13,7 @@ node_modules/
 题库.json
 题库_raw.json
 
-# ---- 原始站点静态资源（第三方版权内容，建议不公开）----
-# 如需在仓库中保留反混淆产物，可只提交 *.deob.js，取消下一行注释以忽略原始 bundle
-# static/js/chunk-*.js
-# static/js/runtime.*.js
+# ---- 原始站点 bundle（第三方版权内容，不上传）----
+# 忽略所有原始 js，但保留本仓库产出的反混淆结果 *.deob.js
+static/js/*.js
+!static/js/*.deob.js
